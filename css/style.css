@@ -5,10 +5,6 @@
 * Browsers: last 4 version
 */
 
-.body{
-	max-width: 1920px;
-	width: 100%;
-}
 .section1-block{
 	max-width: 1657px;
 	width: 100%;
@@ -33,8 +29,7 @@
 }
 .logo-cont:{
 	color: #000000;
-	max-width: 122px;
-	width: 100%;
+	font-size: 122px;
 }
 .nav-cont{
 	max-width: 600px;
@@ -65,7 +60,7 @@
 	width: 100%;
 	max-height: 100px;
 	height: 100%;
-	top: 100px;
+	top: 70px;
 	left: 0px;
 	color: white;
 	background-color: #ddddbb;
@@ -200,7 +195,7 @@
 	color: #FFFFFF;
 }
 .number, .email{
-	font-size: 12px;
+	font-size: 13px;
 	color: #F2F2F2;
 }
 .adress{
@@ -213,7 +208,7 @@
 	color: #F2F2F2; ;
 }
 .add{
-	font-size: 11px;
+	font-size: 13px;
 }
 .icon-cont{
 	max-width: 70px;
