@@ -1,0 +1,231 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.body{
+	max-width: 1920px;
+	width: 100%;
+}
+.section1-block{
+	max-width: 1657px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header-block{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+.header{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.logo-cont:{
+	color: #000000;
+	max-width: 122px;
+	width: 100%;
+}
+.nav-cont{
+	max-width: 600px;
+	width: 100%;
+}
+.ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 20px;
+	color: #707070;
+}
+.fa-search{
+	font-size: 25.5px;
+	opacity: 0.5;
+}
+.burger-icon{
+	display: none;
+}
+.fa-align-justify{
+	font-size: 20px;
+}
+.navigation{
+	position: fixed;
+	width: 100%;
+	max-height: 100px;
+	height: 100%;
+	top: 100px;
+	left: 0px;
+	color: white;
+	background-color: #ddddbb;
+	opacity: 0.8;
+	line-height: 22px;
+	display: none;
+}
+.burger-icon:hover .navigation{
+	display: block;
+}
+.map-image{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.map{
+	max-width: 1150px;
+	width: 100%;
+	margin-top: 65px;
+}
+/*formsection*/
+.form-section{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 49px;
+}
+.name, .E-mail, .subject, .message, .button{
+	/*height: 128px;*/
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+.label, .input{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.label{
+	margin-bottom: 11.9px;
+	margin-left: 10px;
+	color: #2E2E2E;
+	font-size: 20px;
+}
+.input{
+	border: 2px solid #d9d9d9;
+	max-width: 530.26px;
+	width: 100%;
+	height: 39.66px;
+	padding-left: 20px;
+	margin-bottom: 17.5px;
+}
+.textarea-message{
+	border: 2px solid #d9d9d9;
+	max-width: 530.26px;
+	width: 100%;
+	padding-left: 20px;
+	height: 80.62px;
+}
+.button-send{
+	background-color: #2E2E2E;
+	max-width: 150.93px;
+	width: 100%;
+	height: 52.24px;
+	color: #FFFFFF;
+	font-size: 21px;
+	margin-top: 17.5px;
+}
+.input::-webkit-input-placeholder{
+	color: #2E2E2E;
+	font-size: 15px;
+}
+.input::-moz-placeholder{
+	color: #2E2E2E;
+	font-size: 15px;
+}
+.input:-ms-input-placeholder{
+	color: #2E2E2E;
+	font-size: 15px;
+}
+.input::-ms-input-placeholder{
+	color: #2E2E2E;
+	font-size: 15px;
+}
+.input::placeholder{
+	color: #2E2E2E;
+	font-size: 15px;
+}
+/*footer*/
+.footer-cont{
+	background-color: #2E2E2E;
+	margin-top: 235px;
+	width: 100%;
+}
+.footer-content{
+	max-width: 1240px;
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.footer-logo{
+	max-width: 100px;
+	width: 100%;
+}
+.contact{
+	max-width: 150px;
+	width: 100%;
+	line-height: 20px;
+}
+.cont-title{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.number, .email{
+	font-size: 12px;
+	color: #F2F2F2;
+}
+.adress{
+	max-width: 260PX;
+	width: 100%;
+	line-height: 20px;
+}
+.adress-title, .add{
+	font-size: 19px;
+	color: #F2F2F2; ;
+}
+.add{
+	font-size: 11px;
+}
+.icon-cont{
+	max-width: 70px;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.fa-facebook, .fa-instagram{
+	 font-size: 30px;
+	 color: #F8F8F8;
+}

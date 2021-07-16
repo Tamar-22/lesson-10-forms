@@ -1,16 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Forms</title>
-	<link rel="icon" href="images/icon.png" type="images/png" sizes="16x16"> 
+	<link rel="icon" href="images/icon.png" type="images/png" sizes="16x16">
 	<script src="https://kit.fontawesome.com/4f8f2e83e9.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
-<body>
+<body class="body">
+	<section class="section1-block">
+	<header class="header-block">
+		<div class="header">
+		<div class="logo-cont">
+			<img src="images/logo.svg" alt="logo">
+		</div>
+		<div class="nav-cont">
+			<nav>
+				<ul class="ul">
+					<li>პროექტის შესახებ</li>
+					<li>მოთხოვნები</li>
+					<li>EXPLORE</li>
+					<li>შესვლა</li>
+					<!-- <div>
+						<i class="fas fa-search"></i>
+					</div> -->
+				</ul>
+			</nav>
+		</div>
+		<div>
+				<i class="fas fa-search"></i>
+		</div>
+		<div class="burger-icon">
+				<i class="fas fa-align-justify"></i>
+					<div class="navigation">
+						<nav>
+							<ul>
+								<li>პროექტის შესახებ</li>
+								<li>მოთხოვნები</li>
+								<li>EXPLORE</li>
+								<li>შესვლა</li>
+							</ul>
+						</nav>
+					</div>
+			</div>
+		</div>
+	</header>
+		<div class="map-image">
+			<img class="map" src="images/map.jpg" alt="map">
+		</div>
+	</section>
+	<section class="form-section">
+		<form>
+			<div class="name">
+				<label class="label" for="Name">Name</label>
+				<input class="input" type="text" name="Name" id="Name" placeholder="...type your name">
+			</div>
+			<div class="E-mail">
+				<label class="label" for="email">E-mail</label>
+				<input class="input" type="text" name="email" id="email" placeholder="...type your e-mail">
+			</div>
+			<div class="subject">
+				<label class="label" for="Subject">Subject</label>
+				<input class="input" type="text" name="checkbox" id="Subject" placeholder="...type the mail subject">
+			</div>
+			<div class="message">
+				<label class="label" for="Massage">Massage</label>
+				<textarea class="textarea-message" name="Massage" id="Massage"></textarea>
+			</div>
+			<div class="button">
+				<button class="button-send" type="submit" id="button"> SEND</button>
+			</div>
+		</form>
+	</section>
+	<footer class="footer-cont">
+		<div  class="footer-content">
+			<div>
+				<img class="footer-logo" src="images/logo1.svg" alt="logo">
+			</div>
+			<div class="contact">
+				<h4 class="cont-title">კონტაქტი</h4>
+				<p class="number">+995 0322 38 08 02</p>
+				<p class="email">info@lucapolare.com</p>
+			</div>
+			<div class="adress">
+				<h4 class="adress-title">მისამართი</h4>
+				<p class="add">მერაბ ალექსიძის ქუჩა 10. თბილისი</p>
+			</div>
+			<div class="icon-cont">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>
